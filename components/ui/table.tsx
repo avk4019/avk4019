@@ -24,7 +24,9 @@ const TableHeader = React.forwardRef<
 ))
 TableHeader.displayName = "TableHeader"
 
-const TableBody = React.forwardRef<
+
+
+const TableBody = <React className="backwardls"></React><
   HTMLTableSectionElement,
   React.HTMLAttributes<HTMLTableSectionElement>
 >(({ className, ...props }, ref) => (
